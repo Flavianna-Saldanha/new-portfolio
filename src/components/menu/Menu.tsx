@@ -41,7 +41,7 @@ export function Menu() {
             </section>
             {menuOpen && (
                 <div>
-                    <ul className="w-full h-screen z-10 bg-slate-950/95 uppercase absolute left-0 mt-12 text-[20px] text-center flex flex-col gap-10 "  >
+                    <ul className="font-poppins w-full h-screen z-10 bg-slate-950/95 uppercase absolute left-0 mt-12 text-[19px] text-center flex flex-col gap-10 "  >
                         {menuList.map((item, index) => (
                             <MenuItem 
                                 key={index}

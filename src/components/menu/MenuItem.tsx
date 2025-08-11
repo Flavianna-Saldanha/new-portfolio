@@ -7,9 +7,9 @@ export interface menuItemInterface {
 
 export const MenuItem = ({url, label}: menuItemInterface) => {
     return (
-        <li className="">
+        <li>
             <Link href={url}>
-                {label}
+                <span className="hover:text-violet-500/20">{label}</span>
             </Link>
         </li>
     );
