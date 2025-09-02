@@ -7,7 +7,7 @@ import { useState } from "react";
 import { menuList } from "@/data/menuList";
 
 
-export function Menu() {
+export const Menu = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -15,7 +15,7 @@ export function Menu() {
     }
 
     return (
-        <header className="border-2 border-red-500">
+        <header>
             <section className="flex justify-between mx-18 mt-11">
                 <div className="text-4xl">
                     <Link href="/">
@@ -41,7 +41,7 @@ export function Menu() {
             </section>
             {menuOpen && (
                 <div>
-                    <ul className="font-poppins w-full h-screen z-10 bg-slate-950/95 uppercase absolute left-0 mt-12 text-[19px] text-center flex flex-col gap-10 "  >
+                    <ul className="font-poppins w-full h-screen z-10 bg-slate-950/95 uppercase absolute left-0 pt-25 text-[19px] text-center flex flex-col gap-10 "  >
                         {menuList.map((item, index) => (
                             <MenuItem 
                                 key={index}

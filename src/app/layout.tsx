@@ -1,6 +1,4 @@
-
 import { Menu } from "../components/menu/Menu";
-import { menuItem } from "@/data/menuItem";
 
 import "./globals.css";
 

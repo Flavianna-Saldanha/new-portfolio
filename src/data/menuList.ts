@@ -6,15 +6,15 @@ export const menuList: menuItemInterface[] = [
         label: "Sobre"
     }, 
     {
-        url: "/",
+        url: "/#habilidades",
         label: "Habilidades"
     },
     {
-        url: "/",
+        url: "/#projetos",
         label: "Projetos"
     },
      {
-        url: "/",
+        url: "/#contato",
         label: "Contato"
     }
 ]
