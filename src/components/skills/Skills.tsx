@@ -6,20 +6,26 @@ export const Skills = () => {
                     <h1>Habilidades</h1>
                 </div>
                 <div className="mt-12 mx-5 flex flex-wrap justify-center gap-4">
-                    <div>
+                    <div className="w-44 h-48 p-12 bg-gray-950 border-b-4 border-b-violet-950">
                         <img src="/assets/html-5.png" alt="" />
                     </div>
-                    <div>
+                    <div className="w-44 h-48 p-12 bg-gray-950 border-b-4 border-b-violet-950">
                         <img src="/assets/css-3 (1).png" alt="" />
                     </div>
-                    <div>
+                    <div className="w-44 h-48 p-12 bg-gray-950 border-b-4 border-b-violet-950">
                         <img src="/assets/js (1).png" alt="" />
                     </div>
-                    <div>
-                        <img src="/assets/" alt="" />
+                    <div className="w-44 h-48 p-12 bg-gray-950 border-b-4 border-b-violet-950">
+                        <img src="/assets/typescript.png" alt="" />
                     </div>
-                    <div>
-                        <img src="/assets/" alt="" />
+                    <div className="w-44 h-48 p-12 bg-gray-950 border-b-4 border-b-violet-950">
+                        <img src="/assets/tailwindcss.png" alt="" />
+                    </div>
+                    <div className="w-44 h-48 p-12 bg-gray-950 border-b-4 border-b-violet-950">
+                        <img src="/assets/react.png" alt="" />
+                    </div>
+                    <div className="w-44 h-48 p-12 bg-gray-950 border-b-4 border-b-violet-950">
+                        <img src="/assets/nextjs-icon-svgrepo-com.png" alt="" />
                     </div>
                 </div>
             </div>
