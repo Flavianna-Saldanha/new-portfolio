@@ -2,6 +2,7 @@
 
 import { About } from "@/components/about/About";
 import { Header } from "@/components/header/Header";
+import { Skills } from "@/components/skills/Skills";
 
 const Page = () => {
   return (
@@ -44,6 +45,8 @@ const Page = () => {
             </div>
         </div>
         <About />
+
+        <Skills />
 
     </div>
   );

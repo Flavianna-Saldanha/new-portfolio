@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const Header = () => {
     return (
-        <div className="after:content-[''] after:absolute after:top-0 after:right-0 after:w-[42%] after:h-screen after:bg-white after:[clip-path:polygon(100%_33%,100%_0%,100%_100%,0%_100%)] after:-z-10">
-            <div className="relative h-[calc(100vh-90px)] flex flex-col justify-between items-center lg:flex-row lg:justify-around lg:items-start">
+        <div className="after:content-[''] after:absolute after:top-0 after:right-0 after:w-[42%] after:h-screen after:bg-white after:[clip-path:polygon(100%_33%,100%_0%,100%_100%,0%_100%)] after:-z-10 lg:after:[clip-path:polygon(75%_0%,100%_0%,100%_100%,0%_100%)]">
+            <div className="overflow-y-hidden relative h-[calc(100vh-90px)] flex flex-col justify-between items-center lg:flex-row lg:justify-around lg:items-start">
                 <div className="mt-50 relative">
-                    <div className="relative bg-white w-15 h-6 rounded-xl flex justify-center items-center mb-4 ml-40">
+                    <div className="relative bg-white w-15 h-6 rounded-xl flex justify-center items-center mb-4 ml-40 lg:ml-68">
                         <Image
                             src="/assets/woman-technologist-light-skin-tone.png"
                             alt="woman technologist"
@@ -32,7 +32,7 @@ export const Header = () => {
                         alt="woman technologist"
                         width={1200}
                         height={1200}
-                        className="m-auto w-3/4 sm:w-7/12 lg:w-lg lg:mt-[18px]"
+                        className="m-auto w-3/4 sm:w-7/12 lg:w-[450px] lg:mt-20"
                     />
                 </div>
             </div>
