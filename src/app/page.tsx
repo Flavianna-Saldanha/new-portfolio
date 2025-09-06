@@ -4,6 +4,7 @@ import { About } from "@/components/about/About";
 import { Header } from "@/components/header/Header";
 import { Skills } from "@/components/skills/Skills";
 
+
 const Page = () => {
   return (
     <div>
@@ -30,7 +31,7 @@ const Page = () => {
             </div>
         </div>
 
-        <div className="my-20 mx-2 text-[13px] flex flex-wrap justify-center items-center gap-6 uppercase">
+        <div className="my-24 mx-2 text-[13px] flex flex-wrap justify-center items-center gap-6 uppercase lg:text-[16px]">
             <div className="flex justify-center items-center gap-5">
                 <img src="/assets/checked.png" width={20} alt="" /> 
                 <p>Colaboração aberta</p>
