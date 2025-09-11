@@ -1,4 +1,9 @@
 export type Photo = {
-    id: number;
-    url: string;
+    img: string;
+    alt: string;
+    title: string;
+    description: string;
+    siteUrl: string;
+    githubUrl: string;
+    technologies: string[];
 }

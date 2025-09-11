@@ -1,3 +1,5 @@
+import { skillsList } from "@/data/skillsList";
+
 export const Skills = () => {
     return (
         <div id="habilidades" className="container mx-auto">
@@ -6,30 +8,15 @@ export const Skills = () => {
                     <h1>Habilidades</h1>
                 </div>
                 <div className="mt-12 mx-5 flex flex-wrap justify-center gap-4">
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/html-5.png" alt="" />
-                    </div>
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/css-3 (1).png" alt="" />
-                    </div>
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/js (1).png" alt="" />
-                    </div>
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/typescript.png" alt="" />
-                    </div>
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/tailwindcss.png" alt="" />
-                    </div>
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/react.png" alt="" />
-                    </div>
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/nextjs-icon-svgrepo-com.png" alt="" />
-                    </div>
-                    <div className="w-44 h-48 p-12 bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50">
-                        <img src="/assets/mysql.png" alt="" />
-                    </div>
+                    {skillsList.map((skills, index) => (
+                        <div
+                            key={index}
+                            className="w-44 h-48 p-12 flex items-center bg-[#060707] border-b-4 border-b-violet-950 cursor-pointer hover:opacity-50"
+                        >
+                        <img src={skills.src} alt={skills.alt} />
+
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
