@@ -10,7 +10,16 @@ import { Contact } from "@/components/contact/Contact";
 
 const Page = () => {
   return (
-    <div>
+    <div id="inicio">
+        <style>
+        {`
+          @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+          }
+        `}
+      </style>
+
         <Header/>
 
         <div>
@@ -55,6 +64,13 @@ const Page = () => {
         <Projects />
 
         <Contact />
+
+        <a href="#inicio" className="h-12 w-12 p-1 fixed bottom-6 right-2 animate-[float_3s_ease-in-out_infinite] hover:bg-gray-300 hover:rounded-[100%] lg:right-12">
+            <img 
+                src="/assets/seta-curva.png"
+                width={40}
+            />
+        </a>
 
         <footer className="border-t border-gray-800 flex flex-col justify-around items-center gap-3.5 py-10 lg:flex-row">
             <div className="font-poppins text-lg">© 2025 Flavianna Saldanha</div>
