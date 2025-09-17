@@ -18,7 +18,7 @@ export const Header = () => {
                     <div className="absolute top-6 left-[190px] -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-t-8 border-t-white lg:border-l-[10px] lg:border-t-[10px] lg:left-[230px] lg:top-8" />
                     
                     <div>
-                        <div className="w-72 overflow-y-hidden m-auto font-bold text-3xl text-center uppercase drop-shadow-[8px_8px_5px_rgb(0,0,0)] sm:text-5xl lg:w-auto">
+                        <div className="w-72 overflow-y-hidden m-auto font-bold text-2xl text-center uppercase drop-shadow-[8px_8px_5px_rgb(0,0,0)] sm:text-4xl lg:w-auto lg:text-4xl xl:text-5xl">
                             I'm Flavianna Saldanha
                         </div>
                         <div className="italic font-opensans uppercase text-[10px] mr-5 text-end text-gray-500 drop-shadow-[8px_8px_5px_black]">
@@ -33,7 +33,7 @@ export const Header = () => {
                         alt="woman technologist"
                         width={1200}
                         height={1200}
-                        className="m-auto w-3/4 sm:w-7/12 lg:max-h-screen lg:w-[540px] lg:object-contain"
+                        className="m-auto w-3/4 sm:w-7/12 lg:max-h-screen lg:w-[340px] xl:w-[500px] lg:object-contain"
                     />
                 </div>
             </div>
