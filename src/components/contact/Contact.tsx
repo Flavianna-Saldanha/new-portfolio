@@ -1,7 +1,7 @@
 export const Contact = () => {
     return (
         <div id="contato">
-            <div className="mt-44 uppercase text-center text-3xl font-bold bg-gradient-to-b from-[#130834] via-[#38179A] to-[#130834] bg-clip-text text-transparent drop-shadow-[8px_8px_5px_black] font-opensans">
+            <div className="mt-44 uppercase text-center text-4xl font-bold bg-gradient-to-b from-[#130834] via-[#38179A] to-[#130834] bg-clip-text text-transparent drop-shadow-[8px_8px_5px_black] font-opensans">
                 <h1>Contato</h1>
             </div>
             <p className="container mx-auto w-3/4 text-[21px] pt-14 text-justify lg:w-[870px]">
