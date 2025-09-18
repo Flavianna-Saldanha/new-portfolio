@@ -6,18 +6,27 @@ Meu portfólio profissional desenvolvido inicialmente em HTML, CSS e JavaScript 
 ## 📌 Tecnologias Utilizadas
 
 – Next.js
+
 – React.js
+
 – TailwindCSS
+
 – TypeScript
+
 
 
 ## ✨ Funcionalidades
 
 ✔️ Design responsivo usando breakpoints do Tailwind
+
 ✔️ Componentização com React + Next.js
+
 ✔️ Animações leves (scroll e floating effects)
+
 ✔️ Links para redes sociais (LinkedIn, GitHub, Instagram)
+
 ✔️ Sessões separadas: Header, About, Skills, Projects, Contact
+
 ✔️ Botão flutuante para voltar ao topo da página
 
 
