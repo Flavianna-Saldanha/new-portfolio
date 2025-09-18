@@ -2,14 +2,12 @@
 
 Meu portfólio profissional desenvolvido inicialmente em HTML, CSS e JavaScript puro, atualizado para Next.js 14 com TailwindCSS, visando melhor escalabilidade, performance e organização de código.
 
+
 ## 📌 Tecnologias Utilizadas
 
 – Next.js
-
 – React.js
-
 – TailwindCSS
-
 – TypeScript
 
 
@@ -21,6 +19,7 @@ Meu portfólio profissional desenvolvido inicialmente em HTML, CSS e JavaScript 
 ✔️ Links para redes sociais (LinkedIn, GitHub, Instagram)
 ✔️ Sessões separadas: Header, About, Skills, Projects, Contact
 ✔️ Botão flutuante para voltar ao topo da página
+
 
 ## 📬 Entre em Contato  
 
