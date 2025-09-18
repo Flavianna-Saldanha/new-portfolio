@@ -19,7 +19,7 @@ export const Header = () => {
                     
                     <div>
                         <div className="w-72 overflow-y-hidden m-auto font-bold text-[22px] text-center uppercase drop-shadow-[8px_8px_5px_rgb(0,0,0)] sm:text-3xl lg:w-auto md:text-2xl lg:text-4xl xl:text-5xl">
-                            I'm Flavianna Saldanha
+                            I&apos;m Flavianna Saldanha
                         </div>
                         <div className="italic font-opensans uppercase text-[8px] mr-5 text-end text-gray-500 drop-shadow-[8px_8px_5px_black]">
                             Front-end Developer
