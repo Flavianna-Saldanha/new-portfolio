@@ -5,24 +5,13 @@ Meu portfólio profissional desenvolvido inicialmente em HTML, CSS e JavaScript 
 ## 📌 Tecnologias Utilizadas
 
 – Next.js
+
 – React.js
+
 – TailwindCSS
+
 – TypeScript
 
-## 📂 Estrutura de Pastas
-📦 app
- ┣ 📜 globals.css        # Estilos globais
- ┣ 📜 layout.tsx         # Layout padrão
- ┣ 📜 page.tsx           # Página principal
- ┣ 📂 components         # Componentes reutilizáveis
- ┃ ┣ 📂 about
- ┃ ┣ 📂 contact
- ┃ ┣ 📂 header
- ┃ ┣ 📂 menu
- ┃ ┣ 📂 projects
- ┃ ┗ 📂 skills
- ┣ 📂 data               # Dados estáticos (separação lógica)
- ┗ 📂 types              # Tipos TypeScript
 
 ## ✨ Funcionalidades
 
