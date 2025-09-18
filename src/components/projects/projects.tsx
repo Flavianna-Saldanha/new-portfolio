@@ -51,7 +51,7 @@ export const Projects = () => {
             onClick={handlePrev}
             disabled={startIndex === 0}
             className={`${
-              itemsPerPage === 1 ? "w-10 h-10 text-sm" : "px-4 py-3"
+              itemsPerPage === 1 ? "w-6 h-6 mr-2" : "px-4 py-3"
             } bg-white text-black rounded-full disabled:opacity-50 shrink-0 transition-all duration-200 cursor-pointer hover:bg-violet-950`}
           >
             <span className="block rotate-180">➜</span>
@@ -61,7 +61,7 @@ export const Projects = () => {
             {visibleProjects.map((photo, index) => (
               <div
                 key={index}
-                className="bg-[#0000002d] w-full sm:max-w-xs md:w-96 shadow-[0_7px_29px_rgba(100,100,111,0.1)] text-white rounded-md p-4 flex flex-col gap-2 hover:opacity-90 border-b-4 border-b-violet-950"
+                className="bg-[#0000002d] w-80 sm:max-w-xs md:w-96 shadow-[0_7px_29px_rgba(100,100,111,0.1)] text-white rounded-md p-4 flex flex-col gap-2 hover:opacity-90 border-b-4 border-b-violet-950"
               >
                 <img
                   src={photo.img}
@@ -115,7 +115,7 @@ export const Projects = () => {
             onClick={handleNext}
             disabled={startIndex + itemsPerPage >= photoList.length}
             className={`${
-              itemsPerPage === 1 ? "w-10 h-10 text-sm" : "px-4 py-3"
+              itemsPerPage === 1 ? "w-6 h-6 ml-2" : "px-4 py-3"
             } bg-white text-black rounded-full disabled:opacity-50 shrink-0 transition-all duration-200 cursor-pointer hover:bg-violet-950`}
           >
             ➜
