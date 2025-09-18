@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfólio
 
-## Getting Started
+Meu portfólio profissional desenvolvido inicialmente em HTML, CSS e JavaScript puro, atualizado para Next.js 14 com TailwindCSS, visando melhor escalabilidade, performance e organização de código.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+– Next.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+– React.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+– TailwindCSS
 
-## Learn More
+– TypeScript
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Funcionalidades
 
-## Deploy on Vercel
+✔️ Design responsivo usando breakpoints do Tailwind
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✔️ Componentização com React + Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✔️ Animações leves (scroll e floating effects)
+
+✔️ Links para redes sociais (LinkedIn, GitHub, Instagram)
+
+✔️ Sessões separadas: Header, About, Skills, Projects, Contact
+
+✔️ Botão flutuante para voltar ao topo da página
+
+
+## 📬 Entre em Contato  
+
+Caso tenha interesse em conversar sobre projetos, parcerias ou oportunidades, entre em contato comigo:  
+
+- **Email**: flaviannasaldanhadev@gmail.com  
+- **LinkedIn**: https://www.linkedin.com/in/flavianna-saldanha/
+- **Site do projeto**: 
+
+---
+
+Espero que goste do meu trabalho! 😊
