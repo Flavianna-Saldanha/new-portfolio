@@ -20,6 +20,15 @@ export const photoList: Photo[] = [
         technologies: ["Next.js", "TypeScript", "TailwindCSS"],
     },
     {
+        img: '/assets/projetos/chat.png',
+        alt: "Chat simples",
+        title: "Chat simples",
+        description: "A proposta é oferecer uma experiência intuitiva, responsiva e agradável de comunicação em tempo real, com temas dark e light.",
+        siteUrl: "https://chat-beige-eta.vercel.app/",
+        githubUrl: "https://github.com/Flavianna-Saldanha/chat",
+        technologies: ["Next.js", "TypeScript", "TailwindCSS"],
+    },
+    {
         img: '/assets/projetos/notas.jpeg',
         alt: "Lista de estudantes",
         title: "Lista de estudantes",
