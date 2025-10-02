@@ -14,9 +14,9 @@ export const About = () => {
                 <div className="mx-10 text-justify flex flex-col gap-12 md:w-lg lg:w-xl lg:gap-8">
                     <div className="uppercase hidden text-center font-bold text-2xl lg:block lg:text-start lg:text-2xl">Sobre mim</div>
                     <div className="leading-8 text-[18px]lg:text-[15px] lg:leading-8">
-                        Sou desenvolvedora front-end, apaixonada por criar interfaces web intuitivas e experiências digitais marcantes. Domino as bases de TypeScript e React, com foco em Next.js e Tailwind CSS, 
-                        aplicando esses conhecimentos em projetos pessoais para aprimorar responsividade, design de layout e interatividade. Tenho forte capacidade de aprendizado e sou proativa na busca por novas 
-                        soluções.
+                        Sou desenvolvedora front-end, apaixonada por criar interfaces web intuitivas e experiências digitais marcantes. Tenho domínio sólido de TypeScript 
+                        e React, com foco em Next.js e Tailwind CSS. Aplico esses conhecimentos em projetos pessoais, buscando sempre aprimorar a responsividade, o design 
+                        de layout e a interatividade das interfaces. Sou proativa, com forte capacidade de aprendizado e sempre em busca de novas soluções tecnológicas.
                     </div>
                     <div className="text-center lg:text-start">
                         <a
