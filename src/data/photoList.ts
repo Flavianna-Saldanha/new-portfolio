@@ -2,6 +2,15 @@ import { Photo } from "@/types/Photo";
 
 export const photoList: Photo[] = [
     {
+        img:'/assets/projetos/fundo-magico.png',
+        alt: "Fundo Mágico",
+        title: "Fundo Mágico",
+        description: "Aplicação web que transforma descrições em backgrounds incríveis com o poder da Inteligência Artificial.",
+        siteUrl: "https://flavianna-saldanha.github.io/projeto-ia/",
+        githubUrl: "https://github.com/Flavianna-Saldanha/projeto-ia",
+        technologies: ["HTML", "CSS", "JavaScript"],
+    },
+    {
         img: '/assets/projetos/perguntas.png',
         alt: "Quiz",
         title: "Quiz",
