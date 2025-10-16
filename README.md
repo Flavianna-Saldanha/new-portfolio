@@ -36,7 +36,7 @@ Caso tenha interesse em conversar sobre projetos, parcerias ou oportunidades, en
 
 - **Email**: flaviannasaldanhadev@gmail.com  
 - **LinkedIn**: https://www.linkedin.com/in/flavianna-saldanha/
-- **Site do projeto**: https://new-portfolio-five-beryl.vercel.app/
+- **Site do projeto**: https://flaviannadev.com.br
 
 ---
 
