@@ -178,8 +178,8 @@ export const photoList: Photo[] = [
     title: "Formulário",
     description:
       "Aplicação web desenvolvida com o objetivo de permitir o cadastro de usuários em uma plataforma. O foco está na simplicidade da interface e facilidade de uso.",
-    siteUrl: "https://flavianna-saldanha.github.io/Nike/",
-    githubUrl: "https://github.com/Flavianna-Saldanha/Nike",
+    siteUrl: "https://flavianna-saldanha.github.io/formulario/",
+    githubUrl: "https://github.com/Flavianna-Saldanha/formulario",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
