@@ -26,7 +26,7 @@ export const About = () => {
           </div>
           <div className="text-center lg:text-start">
             <a
-              href="https://drive.google.com/file/d/1HJxQTxCV_t2NGfRTNYhmDgsapd8WmIOU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1UwmifxD2xcuUJ_70BwsppTyPOAFG_WzN/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-violet-950 px-5 py-4 cursor-pointer inline-block text-center font-sans hover:bg-violet-950"
