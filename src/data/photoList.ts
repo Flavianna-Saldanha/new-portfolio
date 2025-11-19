@@ -2,6 +2,16 @@ import { Photo } from "@/types/Photo";
 
 export const photoList: Photo[] = [
   {
+    img: "/assets/projetos/portal-noticias.png",
+    alt: "Portal de Notícias",
+    title: "Portal de Notícias",
+    description:
+      "Aplicação web de um portal de notícias totalmente voltado para Inteligência Artificial, Robótica, Internet do Futuro, Realidade Virtual e as principais tendências tecnológicas do mundo.",
+    siteUrl: "https://portal-noticias-one.vercel.app/",
+    githubUrl: "https://github.com/Flavianna-Saldanha/portal-noticias",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS"],
+  },
+  {
     img: "/assets/projetos/fundo-magico.png",
     alt: "Fundo Mágico",
     title: "Fundo Mágico",
