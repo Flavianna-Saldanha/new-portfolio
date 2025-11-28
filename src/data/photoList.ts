@@ -12,17 +12,6 @@ export const photoList: Photo[] = [
     technologies: ["Next.js", "TypeScript", "TailwindCSS"],
   },
   {
-    img: "/assets/projetos/fundo-magico.png",
-    alt: "Fundo Mágico",
-    title: "Fundo Mágico",
-    description:
-      "Aplicação web que transforma descrições em backgrounds incríveis com o poder da Inteligência Artificial.",
-    siteUrl: "https://flavianna-saldanha.github.io/projeto-ia/",
-    githubUrl: "https://github.com/Flavianna-Saldanha/projeto-ia",
-    technologies: ["HTML", "CSS", "JavaScript", "IA (via n8n)"],
-  },
-
-  {
     img: "/assets/projetos/perguntas.png",
     alt: "Quiz",
     title: "Quiz",
