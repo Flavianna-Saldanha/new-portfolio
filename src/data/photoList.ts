@@ -52,16 +52,6 @@ export const photoList: Photo[] = [
     technologies: ["Next.js", "TypeScript", "TailwindCSS"],
   },
   {
-    img: "/assets/projetos/notas.jpeg",
-    alt: "Lista de estudantes",
-    title: "Lista de estudantes",
-    description:
-      "Aplicação web para exibir uma lista de estudantes com status (ativo/inativo), notas parciais e nota final calculada automaticamente.",
-    siteUrl: "https://notas-self.vercel.app/",
-    githubUrl: "https://github.com/Flavianna-Saldanha/notas",
-    technologies: ["Next.js", "TypeScript", "TailwindCSS"],
-  },
-  {
     img: "/assets/projetos/Starbucks.png",
     alt: "Landing Page Starbucks",
     title: "Starbucks",
@@ -169,16 +159,6 @@ export const photoList: Photo[] = [
       "Aplicação simples e eficiente para consultar as condições meteorológicas de qualquer cidade do mundo, oferecendo informações atualizadas de forma rápida e acessível.",
     siteUrl: "https://flavianna-saldanha.github.io/Clima/",
     githubUrl: "https://github.com/Flavianna-Saldanha/Clima",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    img: "/assets/projetos/formulario.png",
-    alt: "Landing Page Formulário",
-    title: "Formulário",
-    description:
-      "Aplicação web desenvolvida com o objetivo de permitir o cadastro de usuários em uma plataforma. O foco está na simplicidade da interface e facilidade de uso.",
-    siteUrl: "https://flavianna-saldanha.github.io/formulario/",
-    githubUrl: "https://github.com/Flavianna-Saldanha/formulario",
     technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
