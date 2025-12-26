@@ -2,6 +2,16 @@ import { Photo } from "@/types/Photo";
 
 export const photoList: Photo[] = [
   {
+    img: "/assets/projetos/english-course.png",
+    alt: "Curso de Inglês",
+    title: "English Course",
+    description:
+      "O FluentWay foi criado para apresentar um método de ensino de inglês baseado em imersão, prática contínua e resultados rápidos. A plataforma inclui páginas institucionais, área de login, matrícula e navegação otimizada.",
+    siteUrl: "https://english-course-plum.vercel.app/",
+    githubUrl: "https://github.com/Flavianna-Saldanha/english-course",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS"],
+  },
+  {
     img: "/assets/projetos/portal-noticias.png",
     alt: "Portal de Notícias",
     title: "Portal de Notícias",
