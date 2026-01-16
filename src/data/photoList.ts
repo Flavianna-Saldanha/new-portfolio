@@ -2,6 +2,17 @@ import { Photo } from "@/types/Photo";
 
 export const photoList: Photo[] = [
   {
+    img: "/assets/projetos/apple.png",
+    alt: "Página da Apple",
+    title: "Apple Watch Ultra 3",
+    description:
+      "Este projeto consiste no desenvolvimento de uma interface web conceitual inspirada no Apple Watch Ultra, criada com o objetivo de demonstrar habilidades em desenvolvimento frontend moderno, organização de componentes, design responsivo e atenção à experiência do usuário.",
+    siteUrl: "https://apple-watch-ultra.vercel.app/",
+    githubUrl:
+      "https://github.com/Flavianna-Saldanha/apple-watch-ultra?tab=readme-ov-file",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS"],
+  },
+  {
     img: "/assets/projetos/english-course.png",
     alt: "Curso de Inglês",
     title: "English Course",
@@ -124,7 +135,7 @@ export const photoList: Photo[] = [
   {
     img: "/assets/projetos/pizzas.png",
     alt: "Compra de Pizzas",
-    title: "Nike",
+    title: "Pizza",
     description:
       "O projeto se chama Pizza e simula um cardápio online de pizzas, com dados dinâmicos, layout responsivo e código limpo.",
     siteUrl: "https://flavianna-saldanha.github.io/Pizza/",
