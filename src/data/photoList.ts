@@ -93,16 +93,6 @@ export const photoList: Photo[] = [
     technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
-    img: "/assets/projetos/apple-watch.png",
-    alt: "Landing Page Apple Watch",
-    title: "Apple Watch",
-    description:
-      "Esta é a landing page oficial para a venda do Apple Watch, projetada para destacar os principais modelos e suas funcionalidades.",
-    siteUrl: "https://flavianna-saldanha.github.io/apple-watch/",
-    githubUrl: "https://github.com/Flavianna-Saldanha/apple-watch",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
     img: "/assets/projetos/medi-center.png",
     alt: "Landing Page Medi Center",
     title: "Medi Center",
