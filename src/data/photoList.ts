@@ -1,6 +1,17 @@
 import { Photo } from "@/types/Photo";
 
 export const photoList: Photo[] = [
+	{
+    img: "/assets/projetos/movie-app.png",
+    alt: "Movie App",
+    title: "Movie App",
+    description:
+      "Este projeto é responsável por listar os filmes usando a API do TMDB, com busca, paginação e layout responsivo.",
+    siteUrl: "https://movie-app-three-dusky-46.vercel.app/",
+    githubUrl:
+      "https://github.com/Flavianna-Saldanha/movie-app?tab=readme-ov-file",
+    technologies: ["React", "TypeScript", "Material UI", "TMDB API"],
+  },
   {
     img: "/assets/projetos/apple.png",
     alt: "Página da Apple",
